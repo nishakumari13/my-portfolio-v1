@@ -1,0 +1,86 @@
+.project-main{
+    width: 60%;
+    margin: 0 auto;
+    /* background: blueviolet; */
+}
+.header-proj{
+    display: flex;
+}
+.heading-proj{
+    font-size: 27px;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: 600;
+    color: var(--light-color);
+    text-align: left;
+}
+.hr-proj{
+    width: 50%;
+    height: 1px;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    border: none;
+    /* background: var(--light-color); */
+    background: lightslategray;
+}
+
+.proj-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.container-proj{
+    height: 20rem;
+    /* width: 25rem; */
+    border: 2px solid lightslategray;
+    border-radius: 15px;
+    margin: 1rem;
+}
+
+.header-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 1rem 1rem 1rem;
+    color: var(--light-color);
+}
+
+.proj-name{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    padding: 1rem;
+}
+.content-proj{
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+    padding: 0 1rem 1rem;
+}
+.tech-used{
+    text-align: left;
+    color: var(--light-color);
+    font-size: 14px;
+    font-family: monospace;
+    padding: 1rem 1rem 1rem;
+}
+
+.git-icon{
+   margin: 0 1rem;
+}
+
+@media screen and (max-width:1023px) {
+    .project-main{
+        width: 85%;
+    }
+    .proj-div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}

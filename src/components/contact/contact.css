@@ -1,0 +1,120 @@
+.contact-main{
+    width: 80%;
+    margin: 0 auto;
+    /* background: blueviolet; */
+}
+.contact-head{
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.hr-left{
+    width: 30%;
+    height: 1px;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    border: none;
+    /* background: var(--light-color); */
+    background: lightslategray;
+}
+.heading-contact{
+    font-size: 27px;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: 600;
+    color: var(--light-color);
+    /* text-align: left; */
+}
+.hr-contact{
+    width: 30%;
+    height: 1px;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    border: none;
+    /* background: var(--light-color); */
+    background: lightslategray;
+}
+.heading-text{
+    font-size: 33px;
+    color: white;
+    font-family: monospace;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.para{
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+    line-height: 23px;
+    width: 65%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin: 0 auto;
+}
+.button-style{
+       /* width: 82%; */
+    /* align-items: center; */
+    /* display: flex; */
+    height: 4rem;
+    /* margin: 0 7rem; */
+    /* margin: 2rem 5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    transition: var(--transition);
+}
+.contact-btn{
+    width: 12rem;
+    height: 92%;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    background: transparent;
+    border: 1.5px solid var(--light-color);
+    color: var(--light-color);
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.contact-btn:hover{
+    background-color: var(--light-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    transition: 0.5s ease-in-out;
+}
+
+.contact-btn a{
+    font-size: 16px;
+    font-family: monospace;
+    text-decoration: none;
+    color:var(--light-color);
+}
+
+.contact-btn:hover{
+
+    text-decoration: none;
+    color:var(--main-color);
+}
+@media screen and (max-width:767px) {
+    .hr-left{
+        width: 0%;
+    }
+    .hr-contact{
+        width: 0%;
+    }
+    .para{
+        width: 100%;
+    }
+    
+}

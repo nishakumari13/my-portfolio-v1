@@ -1,0 +1,46 @@
+.exp-main{
+    width: 60%;
+    /* background: antiquewhite; */
+    margin: 3rem auto 10rem auto;
+    /* height: 80vh; */
+}
+.header-exp{
+    display: flex;
+}
+.heading-exp{
+    font-size: 27px;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: 600;
+    color: var(--light-color);
+    text-align: left;
+}
+.hr-exp{
+    width: 50%;
+    height: 1px;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    border: none;
+    /* background: var(--light-color); */
+    background: lightslategray;
+}
+.tabs-div{
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width:767px) {
+    .exp-main{
+        width: 85%;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+    }
+    .heading-exp{
+        font-size: 24px;
+        
+    }
+    .hr-exp{
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+
+    }
+}

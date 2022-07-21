@@ -1,0 +1,122 @@
+.skills-main{
+    width: 60%;
+    /* height: 80vh; */
+    /* background: var(--main-color); */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto;
+}
+.heading-style{
+    font-size: 17px;
+    font-family: monospace;
+    font-weight: 500;
+}
+.header-skills{
+    display: flex;
+}
+.heading-skills{
+    font-size: 27px;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: 600;
+    color: var(--light-color);
+    text-align: left;
+}
+.hr-skills{
+    width: 50%;
+    height: 1px;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    border: none;
+    /* background: var(--light-color); */
+    background: lightslategray;
+}
+.skills-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.left-sec{
+    color: white;
+    margin-bottom: 5rem;
+    /* width: 50%; */
+}
+.right-sec{
+    color: white;
+    margin-bottom: 5rem;
+    /* width: 50%; */
+}
+.experience_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem; 
+    border: 2px solid lightslategray;
+    border-radius: 16px;
+    margin-top: 2rem;
+    padding: 3rem 1rem;
+    cursor: pointer;
+    height: 80%;
+   transition: var(--transition);
+   box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    
+}
+
+.experience_content:hover{
+    background-color:   var(--navy-shadow);
+    border: 2px solid var(--light-color);
+
+}
+.experience_details{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    margin-left: 2rem;
+}
+.experience_details_icons{
+    color: var(--light-color);
+}
+.experience_details_icons:hover{
+    color: white;
+}
+.text-light{
+    color: var(--light-color);
+}
+.content-style{
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+@media screen and (max-width:767px) {
+    .skills-main{
+        width: 85%;
+        margin: 6rem auto;
+    }
+    .skills-section{
+        width: 306px;
+        display: inline;
+        grid-template-columns: auto;
+        gap: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .left-sec,.right-sec{
+        margin-bottom: 1rem;
+        margin-top: 2.5rem;
+    }
+    .experience_content{
+        gap: 1rem;
+        margin-top: 2rem;
+        padding: 2rem 1rem;
+    }
+    .experience_details{
+        margin-left: 1rem;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1023px){
+    .skills-section{
+        grid-template-columns: auto;
+    }
+}
